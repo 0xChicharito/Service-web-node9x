@@ -23,7 +23,7 @@ const Header = () => {
 			Networks
 		</Link>,
 		<Link
-			href='/services'
+			href='https://service.node9x.com'
 			onClick={() => {
 				setIsOpen(!isOpen)
 			}}
@@ -45,7 +45,7 @@ const Header = () => {
 				}}
 			>
 				<a href='https://www.node9x.com/'>Mainnet</a>
-				<a href='https://www.node9x.com/'>Testnet</a>
+				<a href='https://explorer.node9x.com/'>Testnet</a>
 			</div>
 		</div>,
 		<Link
