@@ -115,7 +115,7 @@ const Header = () => {
 				{
 					<Link href='/'>
 						<Image
-							src='/lightnode9xlogo.png.png'
+							src='/lightnode9xlogo.png'
 							alt='logo'
 							width={180}
 							height={55}
