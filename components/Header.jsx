@@ -23,7 +23,7 @@ const Header = () => {
 			Networks
 		</Link>,
 		<Link
-			href='https://service.node9x.com'
+			href='/service'
 			onClick={() => {
 				setIsOpen(!isOpen)
 			}}
