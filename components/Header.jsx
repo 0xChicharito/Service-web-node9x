@@ -115,7 +115,7 @@ const Header = () => {
 				{
 					<Link href='/'>
 						<Image
-							src='/node9xlogo.png'
+							src='/lightnode9xlogo.png.png'
 							alt='logo'
 							width={180}
 							height={55}
@@ -309,7 +309,7 @@ const Header = () => {
 						<Image src='/icons/github.svg' alt='github' width={30} height={30} />
 					</a>
 					<a
-						href='https://github.com/itrocket-am'
+						href='https://github.com/0xChicharito'
 						target='_blank'
 						rel='noopener noreferrer'
 						style={{ display: theme !== 'light' ? 'block' : 'none' }}
