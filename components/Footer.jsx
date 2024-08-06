@@ -20,7 +20,7 @@ const Footer = props => {
 				<div className={styles.footer__logo}>
 					<Link href='/'>
 						<Image
-							src='/joselogo.png'
+							src='/lightnode9xlogo.png'
 							alt='logo'
 							width={220}
 							height={100}
@@ -29,7 +29,7 @@ const Footer = props => {
 						/>
 
 						<Image
-							src='/joselogo.png'
+							src='/lightnode9xlogo.png'
 							alt='logo'
 							width={220}
 							height={100}
@@ -54,14 +54,14 @@ const Footer = props => {
 
 				<div className='flex flex-col gap-2'>
 					<div className='socials'>
-						<a href='https://t.me/josephtran' target='_blank' rel='noopener noreferrer'>
+						<a href='https://t.me/Oxchicharito' target='_blank' rel='noopener noreferrer'>
 							<Image src='/icons/tg.svg' alt='telegram' width={35} height={35} />
 						</a>
 
-						<a href='https://twitter.com/josephtran102' target='_blank' rel='noopener noreferrer'>
+						<a href='https://twitter.com/0xChicharito' target='_blank' rel='noopener noreferrer'>
 							<Image src='/icons/twitter.svg' alt='twitter' width={35} height={35} />
 						</a>
-						<a href='https://github.com/josephtran102' target='_blank' rel='noopener noreferrer'>
+						<a href='https://github.com/0xchicharito' target='_blank' rel='noopener noreferrer'>
 							<Image
 								src='/icons/github.svg'
 								alt='github'
