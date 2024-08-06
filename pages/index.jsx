@@ -142,7 +142,7 @@ const Home = () => {
 							<div className={styles.hero__column} id={styles.hero__descStaking}>
 								<div className={styles.hero__columnRoot}>
 									<h1 className='font-bold  mb-[15px] text-[26px] md:text-[38px] lg:text-[50px]'>
-									Reliable Validator &amp; Multi-Chain Service Provider
+									Trusted PoS ValidatorNode Provider
 									</h1>
 									<span className={styles.hero__desc}>
 									By following a few easy steps, you can delegate your funds to our reliable validators
@@ -159,10 +159,11 @@ const Home = () => {
 										Delegate
 									</Link>
 									<Link
-										href='/services'
+										href="https://service.node9x.com/"
 										className={theme === 'light' ? styles.button : styles.button__dark}
 									>
-										Services
+										<a target="_blank" rel="noopener noreferrer">Services</a>
+								
 									</Link>
 								</div>
 							</div>
