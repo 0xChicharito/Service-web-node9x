@@ -22,7 +22,7 @@ const AdminLayout = ({ children }) => {
 							className='block dark:hidden'
 						/>
 						<Image
-							src='/lightnode9xlogo.png'
+							src='/node9xlogo.png'
 							alt='logo'
 							width={180}
 							height={55}
