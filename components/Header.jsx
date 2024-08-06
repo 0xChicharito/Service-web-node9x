@@ -246,15 +246,15 @@ const Header = () => {
 					<div className='divider-vertical hidden lg:block'></div>
 
 					<div className='hidden gap-3 lg:flex'>
-						<a href='https://t.me/josephtran' target='_blank' rel='noopener noreferrer'>
+						<a href='https://t.me/Oxchicharito' target='_blank' rel='noopener noreferrer'>
 							<Image src='/icons/tg.svg' alt='telegram' width={30} height={30} />
 						</a>
 
-						<a href='https://twitter.com/josephtran102' target='_blank' rel='noopener noreferrer'>
+						<a href='https://twitter.com/0xchicharito' target='_blank' rel='noopener noreferrer'>
 							<Image src='/icons/twitter.svg' alt='twitter' width={30} height={30} />
 						</a>
 						<a
-							href='https://github.com/josephtran102'
+							href='https://github.com/0xchicharito'
 							target='_blank'
 							rel='noopener noreferrer'
 							style={{ display: theme === 'light' ? 'block' : 'none' }}
