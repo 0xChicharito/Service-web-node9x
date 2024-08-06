@@ -60,7 +60,7 @@ const Home = () => {
 			testnet: Object.entries(projects.testnet)?.length
 		}))
 
-		console.log('%cITRocket 🚀', 'color: purple; font-size: 38px;')
+		console.log('%cNode9X 💫', 'color: purple; font-size: 38px;')
 
 		if (document.readyState === 'complete') {
 			onPageLoad()
@@ -111,14 +111,14 @@ const Home = () => {
 	return (
 		<>
 			<Head>
-				<title>JosephTran - Reliable Validator &amp; Multi-Chain Service Provider!</title>
+				<title>Node9X - Reliable Validator &amp; Multi-Chain Service Provider!</title>
 				<meta
 					name='description'
-					content='ITRocket 🚀 - Crypto multipurpose project focused on providing best services for Cosmos (and not only) node operators'
+					content='Node9X 💫 - Node operators'
 				/>
 				<meta
 					name='keywords'
-					content='ITRocket, it rocket, validator, cosmos, cosmos installation, nodes, blockchain'
+					content='Node9X, Node 9X, validator, cosmos, cosmos installation, nodes, blockchain'
 				/>
 			</Head>
 			<Header />
