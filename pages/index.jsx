@@ -159,10 +159,14 @@ const Home = () => {
 										Delegate
 									</Link>
 									<Link
-										href="https://service.node9x.com/"
-										className={theme === 'light' ? styles.button : styles.button__dark}
-									>
-										Services
+										<Link href="https://service.node9x.com/" passHref>
+									    <a
+									      className={theme === 'light' ? styles.button : styles.button__dark}
+									      target="_blank"
+									      rel="noopener noreferrer"
+									    >
+									      Services
+									    </a>
 
 									</Link>
 								</div>
