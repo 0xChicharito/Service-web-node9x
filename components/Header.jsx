@@ -44,8 +44,8 @@ const Header = () => {
 					setIsOpen(!isOpen)
 				}}
 			>
-				<a href='https://www.explorer.josephtran.xyz/'>Mainnet</a>
-				<a href='https://www.explorer.josephtran.xyz/'>Testnet</a>
+				<a href='https://www.node9x.com/'>Mainnet</a>
+				<a href='https://www.node9x.com/'>Testnet</a>
 			</div>
 		</div>,
 		<Link
@@ -115,7 +115,7 @@ const Header = () => {
 				{
 					<Link href='/'>
 						<Image
-							src='/joselogo.png'
+							src='/node9xlogo.png'
 							alt='logo'
 							width={180}
 							height={55}
@@ -125,7 +125,7 @@ const Header = () => {
 						/>
 
 						<Image
-							src='/joselogo.png'
+							src='/node9xlogo.png'
 							alt='logo'
 							width={180}
 							height={55}
@@ -293,15 +293,15 @@ const Header = () => {
 				</nav>
 
 				<div className='socials'>
-					<a href='https://t.me/josephtran' target='_blank' rel='noopener noreferrer'>
+					<a href='https://t.me/Oxchicharito' target='_blank' rel='noopener noreferrer'>
 						<Image src='/icons/tg.svg' alt='telegram' width={30} height={30} />
 					</a>
 
-					<a href='https://twitter.com/josephtran102' target='_blank' rel='noopener noreferrer'>
+					<a href='https://twitter.com/0xchicharito' target='_blank' rel='noopener noreferrer'>
 						<Image src='/icons/twitter.svg' alt='twitter' width={30} height={30} />
 					</a>
 					<a
-						href='https://github.com/josephtran102'
+						href='https://github.com/0xChicharito'
 						target='_blank'
 						rel='noopener noreferrer'
 						style={{ display: theme === 'light' ? 'block' : 'none' }}
