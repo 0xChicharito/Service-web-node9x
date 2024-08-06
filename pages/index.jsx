@@ -142,7 +142,7 @@ const Home = () => {
 							<div className={styles.hero__column} id={styles.hero__descStaking}>
 								<div className={styles.hero__columnRoot}>
 									<h1 className='font-bold  mb-[15px] text-[26px] md:text-[38px] lg:text-[50px]'>
-									<span style="color:#D536F1">Secure</span> And <span style="color:#0097E2">Reliable</span> Node <span style="color:#00FFFF">Operator</span>
+									Secure and Reliable Node Operator
 									</h1>
 									<span className={styles.hero__desc}>
 									By following a few easy steps, you can delegate your funds to our reliable validators
