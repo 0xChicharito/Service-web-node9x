@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useContext } from 'react'
-
 import { Context } from '@context/context'
 import '@styles/Footer.module.scss'
 import styles from '@styles/Footer.module.scss'
@@ -29,7 +28,7 @@ const Footer = props => {
 						/>
 
 						<Image
-							src='/lightnode9xlogo.png'
+							src='/node9xlogo.png'
 							alt='logo'
 							width={220}
 							height={100}
@@ -80,7 +79,7 @@ const Footer = props => {
 					</div>
 					<div className='flex items-center justify-center'>
 						<Link href='/delegate' className='text-xs opacity-60 hover:opacity-85'>
-							Joseph Tran validator links
+							Node 9X validator links
 						</Link>
 					</div>
 				</div>
