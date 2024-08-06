@@ -54,7 +54,7 @@ const Accordion = () => {
 			title: 'About us',
 			content: (
 				<span>
-					Welcome to Joseph Tran Node Operator Services, your comprehensive guide to setting up and managing blockchain nodes.{' '}
+					Welcome to Node 9X-Node Operator Services, your comprehensive guide to setting up and managing blockchain nodes.{' '}
 					<span
 						className='inline-block h-5 w-5 align-top mx-1 lg:mt-[2px]'
 						aria-hidden='true'
