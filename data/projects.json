@@ -1,6 +1,5 @@
 {
   "mainnet": {
-    },
     "zetachain": {
       "bin": "zetacored",
       "binHome": "/home/zetachain/go/bin/zetacored",
@@ -52,7 +51,7 @@
       "path": ".junction",
       "peerID": "47f61921b54a652ca5241e2a7fc4ed8663091e89",
       "peerPort": "19656",
-      "port": 19,
+      "port": "19",
       "prHome": "/home/airchains",
       "stateSync": "true",
       "seedID": "04e2fdd6ec8f23729f24245171eaceae5219aa91",
@@ -108,7 +107,7 @@
       "path": ".evmosd",
       "peerID": "",
       "peerPort": "",
-      "port": 47,
+      "port": "47",
       "prHome": "/home/og",
       "stateSync": "true",
       "seedID": "c9b8e7e220178817c84c7268e186b231bc943671",
@@ -119,7 +118,7 @@
       "variable": "OG",
       "website": "https://0g.ai/"
     },
-       "Fiamma": {
+    "Fiamma": {
       "ecosystem": "false",
       "goVersion": "",
       "imgUrl": "fiamma.jpg",
@@ -144,7 +143,7 @@
       "installTitle3": "",
       "delegate": "https://explorer.node9x.com/fiamma-testnet/staking/fiammavaloper15q530ph9kly97x0vvkhphp7aady3395v3x54fk"
     },
-       "Hedge": {
+    "Hedge": {
       "ecosystem": "false",
       "goVersion": "",
       "imgUrl": "hedge.png",
@@ -169,7 +168,7 @@
       "installTitle3": "",
       "delegate": "https://explorer.node9x.com/Hedge-Testnet/staking/hedgevaloper1kmmv96xlx5e5rzyt50d58wyqqtrqvcpxfegaszk"
     },
-       "Symphony": {
+    "Symphony": {
       "ecosystem": "false",
       "goVersion": "",
       "imgUrl": "sym.png",
@@ -194,7 +193,6 @@
       "installTitle3": "",
       "delegate": "https://explorer.node9x.com/Hedge-Testnet/staking/hedgevaloper1kmmv96xlx5e5rzyt50d58wyqqtrqvcpxfegaszk"
     },
-  
     "zetachain": {
       "chainID": "athens_7001-1",
       "delegate": "https://testnet.itrocket.net/zetachain/staking/zetavaloper17d6ttmqffr5pwt9fd7uuj8px27quv4nljf3s8j",
