@@ -192,37 +192,6 @@
       "installBin3": "",
       "installTitle3": "",
       "delegate": "https://explorer.node9x.com/Hedge-Testnet/staking/hedgevaloper1kmmv96xlx5e5rzyt50d58wyqqtrqvcpxfegaszk"
-    },
-    "zetachain": {
-      "chainID": "athens_7001-1",
-      "delegate": "https://testnet.itrocket.net/zetachain/staking/zetavaloper17d6ttmqffr5pwt9fd7uuj8px27quv4nljf3s8j",
-      "imgUrl": "zetachain.jpg",
-      "website": "https://www.zetachain.com/",
-      "offValDoc": "https://github.com/zeta-chain/network-athens3/tree/main",
-      "hardware": "4 Cores, 16GB RAM, 300GB of storage (NVME)",
-      "fav": "true",
-      "prHome": "/home/zetachain",
-      "binHome": "/home/zetachain/go/bin/zetacored",
-      "snapMaxSize": "3",
-      "port": "14",
-      "variable": "ZETACHAIN",
-      "denom": "azeta",
-      "ecosystem": "cosmos",
-      "bin": "zetacored",
-      "path": ".zetacored",
-      "peerID": "d21b103628b0d5d824bbe81b809d8dc457bd2059",
-      "seedID": "c1bbbfe2a5b15674bf24a869b3e8189b6b410ae7",
-      "peerPort": "16656",
-      "evmRPC": "https://zetachain-testnet-evm.itrocket.net:443",
-      "seedPort": "14656",
-      "newExecStart": "$(which zetacored) start --home $HOME/.zetacored --log_format json  --log_level info --moniker $MONIKER",
-      "installBin": "cd $HOME\nmkdir -p $HOME/.zetacored/config\ncd $HOME\nwget -O $HOME/zetacored https://github.com/zeta-chain/node/releases/download/v16.0.0/zetacored-linux-amd64\nchmod +x $HOME/zetacored \nmv $HOME/zetacored  $HOME/go/bin",
-      "updHeight": "5044000",
-      "newInstallBin": "cd $HOME\nwget -O $HOME/zetacored https://github.com/zeta-chain/node/releases/download/v16.0.0/zetacored-linux-amd64\nchmod +x $HOME/zetacored \nsudo mv $HOME/zetacored $(which zetacored)",
-      "goVersion": "1.19.3",
-      "gas": "--gas auto --gas-adjustment 1.5 --gas-prices=\"0.1azeta\"",
-      "unsafeReset": "tendermint unsafe-reset-all",
-      "minGasPrice": "0.0azeta"
     }
   }
 }
