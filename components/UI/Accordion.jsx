@@ -48,47 +48,47 @@ const AccordionItem = ({ title, content }) => {
 	)
 }
 
-const Accordion = () => {
-	const accordionItems = [
-		{
-			title: 'About us',
-			content: (
-				<span>
-					Welcome to Node 9X-Node Operator Services, your comprehensive guide to setting up and managing blockchain nodes.{' '}
-					<span
-						className='inline-block h-5 w-5 align-top mx-1 lg:mt-[2px]'
-						aria-hidden='true'
+//const Accordion = () => {
+	//const accordionItems = [
+		//{
+			//title: 'About us',
+			//content: (
+				//<span>
+					//Welcome to Node 9X-Node Operator Services, your comprehensive guide to setting up and managing blockchain nodes.{' '}
+					//<span
+						//className='inline-block h-5 w-5 align-top mx-1 lg:mt-[2px]'
+						//aria-hidden='true'
 						// style={{ background: "center / contain url('/icons/flag_am.svg')  no-repeat" }}
-					></span>{' '}
-					<br />
-					Our guides are designed to be clear and accessible, covering a wide range of blockchain platforms including
-					Ethereum, Polkadot, and Cosmos. We provide step-by-step instructions, best practices for security and performance,
-					and troubleshooting tips to ensure your nodes run smoothly and efficiently
-				</span>
-			)
-		},
-		{
-			title: 'What about reliability?',
-			content: `We run nodes on dedicated servers in Europe, USA and Canada. Our team
-        uses monitoring tools 24/7 with Prometheus metrics, Grafana dashboard
-        and telegram bots alerting system.`
-		},
-		{
-			title: 'What about security?',
-			content: `We use ssh keys to login in our servers and disable password login and
-        configure a firewall with a limited connection. All our keys are
-        stored in a safe place and we are using a hardware key where it is
-        possible. Our priority is security and reliability of your funds.`
-		}
-	]
+					//></span>{' '}
+					//<br />
+					//Our guides are designed to be clear and accessible, covering a wide range of blockchain platforms including
+					//Ethereum, Polkadot, and Cosmos. We provide step-by-step instructions, best practices for security and performance,
+					//and troubleshooting tips to ensure your nodes run smoothly and efficiently
+				//</span>
+			//)
+		//},
+		//{
+			//title: 'What about reliability?',
+			//content: `We run nodes on dedicated servers in Europe, USA and Canada. Our team
+     //   uses monitoring tools 24/7 with Prometheus metrics, Grafana dashboard
+     //   and telegram bots alerting system.`
+	//	},
+	//	{
+		//	title: 'What about security?',
+		//	content: `We use ssh keys to login in our servers and disable password login and
+    //    configure a firewall with a limited connection. All our keys are
+    //    stored in a safe place and we are using a hardware key where it is
+   //     possible. Our priority is security and reliability of your funds.`
+	//	}
+//	]
 
-	return (
-		<div className='mt-7 md:mt-10'>
-			{accordionItems.map((item, index) => (
-				<AccordionItem key={index} title={item.title} content={item.content} />
-			))}
-		</div>
-	)
-}
+//	return (
+	//	<div className='mt-7 md:mt-10'>
+	//		{accordionItems.map((item, index) => (
+	//			<AccordionItem key={index} title={item.title} content={item.content} />
+	//		))}
+	//	</div>
+	//)
+//}
 
 export default Accordion
