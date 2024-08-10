@@ -47,5 +47,3 @@ const AccordionItem = ({ title, content }) => {
 		</div>
 	)
 }
-
-export default Accordion
