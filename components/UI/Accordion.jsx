@@ -54,13 +54,13 @@ const Accordion = () => {
 			content: (
 				<span>
 					Welcome to Node 9X-Node Operator Services, your comprehensive guide to setting up and managing blockchain nodes.{' '}
-					<span
+					<br />
 						className='inline-block h-5 w-5 align-top mx-1 lg:mt-[2px]'
 						aria-hidden='true'
 						style={{ background: "center / contain url('/icons/flag_am.svg')  no-repeat" }}
 					></span>{' '}
 					<br />
-					Our resour is infrastructure of Hetnzer, ensure to keep the stable and uptime for system.
+					Our resources is infrastructure of Hetzner, ensure to keep the stable and uptime for system.
 				</span>
 			)
 		},
