@@ -47,3 +47,31 @@ const AccordionItem = ({ title, content }) => {
 		</div>
 	)
 }
+const Accordion = () => {
+	const accordionItems = [
+		{
+			title: 'About us',
+			content: (
+				<span>
+					Welcome to Node 9X-Node Operator Services, your comprehensive guide to setting up and managing blockchain nodes.{' '}
+					<span
+						className='inline-block h-5 w-5 align-top mx-1 lg:mt-[2px]'
+						aria-hidden='true'
+						style={{ background: "center / contain url('/icons/flag_am.svg')  no-repeat" }}
+					></span>{' '}
+					<br />
+					Our resour is infrastructure of Hetnzer, ensure to keep the stable and uptime for system.
+				</span>
+			)
+		},
+	return (
+		<div className='mt-7 md:mt-10'>
+			{accordionItems.map((item, index) => (
+				<AccordionItem key={index} title={item.title} content={item.content} />
+			))}
+		</div>
+	)
+}
+
+export default Accordion
+
