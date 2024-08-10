@@ -64,6 +64,7 @@ const Accordion = () => {
 				</span>
 			)
 		},
+		]
 	return (
 		<div className='mt-7 md:mt-10'>
 			{accordionItems.map((item, index) => (
