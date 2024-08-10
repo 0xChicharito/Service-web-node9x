@@ -51,7 +51,7 @@ const Dropdown = props => {
 					<a
 						target='_blank'
 						rel='noopener noreferrer'
-						href='https://www.explorer.node9x.com'
+						href='https://explorer.node9x.com'
 						className={styles.navItem}
 					>
 						Testnet
