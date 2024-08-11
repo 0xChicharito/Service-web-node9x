@@ -1,30 +1,21 @@
-import prisma from '@utils/prismadb';
-import bcrypt from 'bcryptjs';
+const { PrismaClient } = require('@prisma/client');
+const prisma = new PrismaClient();
 
 async function createAdmin() {
-    const email = 'admin@gmail.com';
-    const password = 'adminpassword';
-
-    // Mã hóa mật khẩu
-    const hashedPassword = await bcrypt.hash(password, 10);
-
-    // Tạo người dùng với vai trò admin
-    const newAdmin = await prisma.user.create({
-        data: {
-            email: email,
-            password: hashedPassword,
-            role: 'admin', // Gán vai trò admin
-        },
+  try {
+    const admin = await prisma.user.create({
+      data: {
+        email: 'admin@gmail.com', // Thay đổi với email của bạn
+        password: 'admin', // Hash mật khẩu của bạn trước khi lưu
+        role: 'ADMIN', // Gán vai trò ADMIN
+      },
     });
-
-    console.log('Admin user created:', newAdmin);
+    console.log('Admin created:', admin);
+  } catch (error) {
+    console.error('Error creating admin:', error);
+  } finally {
+    await prisma.$disconnect();
+  }
 }
 
-createAdmin()
-    .catch(e => {
-        console.error(e);
-        process.exit(1);
-    })
-    .finally(() => {
-        prisma.$disconnect();
-    });
+createAdmin();
